@@ -17,7 +17,7 @@ export function generate(data) {
     //generated markdown
     return `# ${title}
 
-    ${licenseUsed}
+${licenseUsed}
     
 ## Table of Contents
 - [Description](#description)
@@ -49,7 +49,6 @@ GitHub: [github.com/${gitUser}](https://github.com/${gitUser})
 Email:  [${email}](mailto:${email})
 
 ## Contribution
-Made with ❤️ by ${contributed}
-`
+Made with ❤️ by ${contributed}`
 }
 

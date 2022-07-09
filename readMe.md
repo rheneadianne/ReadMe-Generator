@@ -27,13 +27,12 @@ Project is free to pull and fork! No need to contact for requests.
 ## Tests
 run node index.mjs in the terminal or GitBash. Make sure you're in the correct folder before starting! Remember to properly install Node.js and inquirer prior to running the application.
 
-## Screenshots and tutorial video
-![Screenshot of GitBash]("./assets/images/screenshot.png")
+## Screenshots and Tutorial video
+![Screenshot of GitBash](./assets/images/screenshot.png)
     
 ## GitHub and Contact
 GitHub: [github.com/rheneadianne](https://github.com/rheneadianne)
 Email:  [rheneadianne@gmail.com](mailto:rheneadianne@gmail.com)
 
 ## Contribution
-Made with ❤️ by rhenea
-    
+Made with ❤️ by rhenea 
