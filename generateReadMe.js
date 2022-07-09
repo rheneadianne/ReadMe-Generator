@@ -1,4 +1,4 @@
-const getLicense = license => {
+const getLicense = license => { //gets license img and license link for mroe ingo
     license = license[0]
     let licenseIMG = ""
     license === 'MIT License'? 
@@ -6,12 +6,15 @@ const getLicense = license => {
     license === 'Apache Licence 2.0'?
         licenseIMG = `"[![License: Apache 2.0](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"`:
         licenseIMG = `"[![License: GNU General Public v3.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"`
+    
+    return licenseIMG
 }
 
 export function generate(data) {
-    const {title, description, installation, usage, contributed, contribution, testing, license, gitUser, email} = data
+    const {title, description, installation, usage, contributed, contribution, testing, license, gitUser, email} = data //destructures data object
     const licenseUsed = getLicense(license)
 
+    //generated markdown
     return `
     #${title}
 
