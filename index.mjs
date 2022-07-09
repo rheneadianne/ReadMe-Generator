@@ -1,4 +1,7 @@
 import inquirer from "inquirer";
+import fs from "fs";
+import path from "path";
+
 
 inquirer
     .prompt([
@@ -38,8 +41,9 @@ inquirer
             name: "testing"
         },
         {
-            type: "input",
+            type: "checkbox",
             message: "Which license is this project covered under?",
+            choices:['MIT License', 'Apache Licence 2.0', 'GNU General Public Licence v3.0'],
             name: "license"
         },
         {
