@@ -1,4 +1,22 @@
 {
+  "name": "node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rheneadianne/theyMadeMeDoThis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rheneadianne/theyMadeMeDoThis/issues"
+  },
+  "homepage": "https://github.com/rheneadianne/theyMadeMeDoThis#readme",
   "dependencies": {
     "inquirer": "^9.0.0"
   }
