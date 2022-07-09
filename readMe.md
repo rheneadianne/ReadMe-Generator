@@ -29,7 +29,10 @@ run node index.mjs in the terminal or GitBash. Make sure you're in the correct f
 
 ## Screenshots and Tutorial video
 ![Screenshot of GitBash](./assets/images/screenshot.png)
-    
+https://user-images.githubusercontent.com/104535318/178125654-66b52ecc-e833-4eb4-94d3-2976070b4df5.mp4
+
+
+
 ## GitHub and Contact
 GitHub: [github.com/rheneadianne](https://github.com/rheneadianne)
 Email:  [rheneadianne@gmail.com](mailto:rheneadianne@gmail.com)
