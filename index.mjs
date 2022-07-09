@@ -1,3 +1,9 @@
 import inquirer from "inquirer";
 
-console.log(inquirer)
+inquirer .prompt(
+    {
+        type: "input",
+        message: "will you work mayhaps?",
+        name: "testing"
+    }
+)
