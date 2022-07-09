@@ -15,8 +15,7 @@ export function generate(data) {
     const licenseUsed = getLicense(license)
 
     //generated markdown
-    return `
-    #${title}
+    return `#${title}
 
     ${licenseUsed}
     
