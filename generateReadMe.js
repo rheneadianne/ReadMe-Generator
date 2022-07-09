@@ -19,37 +19,37 @@ export function generate(data) {
 
     ${licenseUsed}
     
-    [${title}](#${title})
-    - [Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Contributions](#contributions)
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [Questions](#questions)
+##Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributions](#contributions)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
 
 
-    ## Description
-    ${description}
+## Description
+${description}
 
-    ## Installation
-    ${installation}
+## Installation
+${installation}
 
-    ## Usage 
-    ${usage}
+## Usage 
+${usage}
 
-    ## Contributing 
-    ${contribution}
+## Contributing 
+${contribution}
 
-    ## Tests
-    ${testing}
+## Tests
+${testing}
     
-    ## GitHub and Contact
-    GitHub: [github.com/${gitUser}](https://github.com/${gitUser})
-    Email:  [${email}](mailto:${email})
+## GitHub and Contact
+GitHub: [github.com/${gitUser}](https://github.com/${gitUser})
+Email:  [${email}](mailto:${email})
 
-    ## Contribution
-    Made with ❤️ by ${contributed}
-    `
+## Contribution
+Made with ❤️ by ${contributed}
+`
 }
 
