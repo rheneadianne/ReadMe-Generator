@@ -3,7 +3,7 @@ import inquirer from "inquirer";
 // WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
 
 
-inquirer.prompt(
+inquirer.prompt([
     {
         type: "input",
         message: "What is your project called?",
@@ -49,4 +49,4 @@ inquirer.prompt(
         message: "What is the email you would like use for any questions about the project?",
         name: "email"
     }
-)
+])
