@@ -1,8 +1,8 @@
-#readMe Generator
+# readMe Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     
-##Table of Contents
+## Table of Contents
 - [Description](#descriptioN)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -26,6 +26,9 @@ Project is free to pull and fork! No need to contact for requests.
 
 ## Tests
 run node index.mjs in the terminal or GitBash. Make sure you're in the correct folder before starting! Remember to properly install Node.js and inquirer prior to running the application.
+
+## Screenshots and tutorial video
+![Screenshot of GitBash]("./assets/images/screenshot.png")
     
 ## GitHub and Contact
 GitHub: [github.com/rheneadianne](https://github.com/rheneadianne)
