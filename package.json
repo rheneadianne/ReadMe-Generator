@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rheneadianne/theyMadeMeDoThis.git"
+    "url": "git+https://github.com/rheneadianne/readme_generator.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rheneadianne/theyMadeMeDoThis/issues"
+    "url": "https://github.com/rheneadianne/readme_generator/issues"
   },
-  "homepage": "https://github.com/rheneadianne/theyMadeMeDoThis#readme",
+  "homepage": "https://github.com/rheneadianne/readme_generator#readme",
   "dependencies": {
     "inquirer": "^9.0.0"
   },
